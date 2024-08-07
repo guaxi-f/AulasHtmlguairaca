@@ -2,40 +2,31 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Trabalho tabela</title>
+        <title>Formulario</title>
     </head>
     <body>
-         <h1>Horario Semanal de aulas</h1>
-        <table>
-         <tr>
-            <th>Horario</th>
-            <th>Segunda-feria</th>
-            <th>terca-feri0a</th>
-            <th>quarta-feria</th>
-            <th>quinta-feria</th>
-            <th>Sexta-feria</th>
-         </tr>
-         <tr>
-            <td>8h-9h</td>
-            <td colspan="2">matematica</td>
-            <td>biologia</td>
-            <td>quimica</td>
-            <td>historia</td>
-         </tr>
-         <tr>
-            <td>9h-10h</td>
-            <td>portugues</td>
-            <td>Quimica</td>
-            <td colspan="2">Fisica</td>
-            <td>Educação fisica</td>
-         </tr>
-         <tr>
-            <td>10h-11h</td>
-            <td>Artes</td>
-            <td>Filosofia</td>
-            <td>Matematica</td>
-            <td colspan="2">Inglês</td>
-          </tr>
-        </table>
-    </body>
+     <h1>Exemplo formulario</h1>
+     <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="idade">idade:</label>
+        <input type="number" id="idade" name="idade" required>
+        <br><br>
+
+        <label for="dataEntrega">dataEntrega</label>
+        <input type="date" id="dataEntrga" name="dataEntrega" required>
+        <br><br>
+
+        <label for="mensagem">mensagem</label>
+        <textarea name="mensagem" id="mensagem"></textarea>
+        <br><br>
+
+        <input type="submit" value="Enviar"
+    </form>
+        
 </html>
