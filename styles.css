@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+}
+.header {
+    background-color: #ea7e25;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+.header h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+
+
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 38px;
+    border: solid;
+    border-radius: ;
+    
+}
+
+a {
+    list-style: nome;
+    color: black;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: justify;
+
+}
+
+.footer {
+    padding: 20px;
+
+}
+
+.footer p {
+    opacity: 0.8;
+}
+
