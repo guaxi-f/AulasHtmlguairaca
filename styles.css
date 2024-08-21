@@ -1,14 +1,37 @@
 body {
- background-color: rgba(25, 229, 137, 0.717);
- background-image: -moz-element(legal.jpeg);
+    background-color: gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-
-
-
-
-.content {
+.header {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(7, 172, 255);
+    color: white;
+    padding: 15px;
+
+}
+
+.nav {
+    justify-content: space-around;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.login-btn {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
