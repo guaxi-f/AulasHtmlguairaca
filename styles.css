@@ -1,49 +1,14 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f4f4;
-}
-.header {
-    background-color: #ea7e25;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    
-}
-.header h1 {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: larger;
+ background-color: rgba(25, 229, 137, 0.717);
+ background-image: -moz-element(legal.jpeg);
 }
 
 
 
 
-.nav ul {
+
+.content {
     display: flex;
+    justify-content: center;
     flex-direction: row;
-    text-align: center;
-    gap: 38px;
-    border: solid;
-    border-radius: ;
-    
 }
-
-a {
-    list-style: nome;
-    color: black;
-}
-
-.main-content {
-    padding: 20px;
-    text-align: justify;
-
-}
-
-.footer {
-    padding: 20px;
-
-}
-
-.footer p {
-    opacity: 0.8;
-}
-
